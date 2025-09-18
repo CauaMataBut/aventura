@@ -1,14 +1,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
+
+
 body {
-    background-color: #bef369;
-    font-family: Courgette;
-    color: black
+  
+    color: black;
+    font-family: "Courgette", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Courgette", sans-serif;
 }
 .passo {
     display: none;
 }
 .passo.ativo{
     display:block;
+    
+}
+main {
+    text-align: center;
+    max-width: 100%;
+}
+img {
+    max-width: 100%;
 }
